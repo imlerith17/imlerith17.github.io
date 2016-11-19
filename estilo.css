@@ -1,0 +1,145 @@
+/*=========== RESET ==========*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: #f7f8fa;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*More*/
+
+.more{
+  margin: 43% 0 0 94%;
+  position: fixed;
+  font-size: 40px;
+  background-color: #F44336;
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  padding: 0 0 1% 0.9%;
+  color: #FFF;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: 0.4s;
+}
+
+.more:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  transition: 0.4s;
+}
+
+/*Header*/
+
+header{
+  width: 100%;
+  float: left;
+}
+
+.topo{
+  width: 100%;
+  float: left;
+  padding: 1% 5%;
+  font-size: 4em;
+  font-weight: bold;
+  color: #34474c;
+  background-color: #FFEB3B;
+}
+
+.topo h1{
+  font-weight: 400;
+  font-family: 'Ranga', cursive;
+}
+
+.menu-topo{
+  width: 100%;
+  float: left;
+  background-color: #FDD835;
+  padding: 1% 0 0 3%;
+}
+
+.menu-topo ul li{
+  padding-bottom: 0.8%;
+  float: left;
+  margin-left: 2%;
+  font-size: 1.03em;
+  font-weight: 500;
+  color: #34474c;
+  border-bottom: solid 4px #FDD835;
+}
+
+/*Main*/
+
+.introducao{
+      box-shadow:
+          0 1px 3px rgba(0,0,0, 0.12),
+          0 1px 2px rgba(0,0,0, 0.24);
+      padding: 2%;
+      background-color: #fff;
+      float: left;
+      border-radius: 2px;
+      transition: all .4s;
+      width: 79%;
+      margin: 3% 0 0 10.4%;
+}
+
+.introducao h2{
+  float: left;
+  font-size: 2.2em;
+  font-weight: 400;
+  color: #3d5f81;
+  font-family: 'Slabo 27px', serif;
+  margin: 0  0 0.5% 0;
+}
+
+.introducao h3{
+  float: left;
+  text-align: justify;
+  font-size: 1.03em;
+  font-weight: 400;
+  color: #3d5f81;
+}
+
+.introducao a{
+  font-size: 1.03em;
+  font-weight: 400;
+  color: #FBC02D;
+}
+
+/*Imagens*/
+
+.imagens{
+  float: left;
+  width: 79%;
+  margin: 3% 0 0 10.4%;
+  height: 700px;
+}
+
+.imagens img{
+  float: left;
+  width: 30%;
+  margin: 2% 0 2% 2%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 3px;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+}
